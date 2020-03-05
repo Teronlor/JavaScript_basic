@@ -1,0 +1,16 @@
+.button_description {
+	display: block;
+}
+
+.product {
+	display: inline-block;
+}
+
+img {
+	width: 200px;
+	height: 230px;
+}
+
+.desc {
+	width: 115px;
+}
