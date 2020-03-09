@@ -1,0 +1,104 @@
+.bucketPanel {
+  width: 400px;
+  padding: 10px;
+}
+
+.productRemoveBtn:hover {
+  cursor: pointer;
+}
+
+.btn {
+  display: inline;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 180px;
+  margin-top: 20px;
+  padding: 19px 0;
+  text-align: center;
+  transition: color 0.5s ease-in-out;
+}
+
+.btn:hover {
+  color: #ef5b70;
+}
+
+.btn:active {
+  background-color: #ee8fa0;
+  color: #ffffff;
+}
+
+.row {
+	display: inline-flex;
+  justify-content: space-between;
+}
+
+.col-4 {
+	padding: 15px;
+}
+
+.navbar {
+	display: flex;
+  float: right;
+}
+
+.fa-shopping-cart {
+	color: #f16d7f
+}
+
+.container {
+	margin: 0 auto;
+  width: 900px;
+}
+
+.dropdown_close {
+  align-self: center;
+    color: #c0c0c0;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    background: none;
+    transition: color 0.5s ease-in-out;
+    float: right;
+}
+
+.dropdown_close:hover {
+  color: #f16d7f;
+}
+
+.window_show {
+  display: inline-flex;
+}
+
+.bounce-in-top {
+  animation: bounce-in-top 1.1s both;
+}
+
+.bounce-out-bottom {
+  animation: bounce-out-bottom 1.1s both;
+}
+
+.window_close {
+  background-color: black;
+  display: inline-block;
+    width: 15px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    position: absolute;
+    top: -38%;
+    right: -8%;
+}
+
+.window_close:hover {
+  background-color: grey;
+}
+
+.empty {
+  display: none;
+}
