@@ -79,6 +79,8 @@ let images = {
         currentSlide.classList.remove('hidden-slide');
     },
 
+    u92867u4.beget.tech
+
     /** Всем слайдам добавляем класс hidden-slide. */
     hideVisibleImages() {
         this.slides.forEach(function (slide) {
